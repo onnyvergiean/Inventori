@@ -1,0 +1,16 @@
+﻿<Window x:Class="inventory.BarangMasuk"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:inventory"
+        mc:Ignorable="d"
+        Title="BarangMasuk" Height="450" Width="399">
+    <Grid HorizontalAlignment="Left" Width="432">
+        <TextBox x:Name="Nama_Barang" HorizontalAlignment="Left" Margin="40,100,0,0" Text="Nama Barang" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" Height="46" TextChanged="Nama_Barang_TextChanged"/>
+        <TextBox x:Name="Tanggal_Masuk" HorizontalAlignment="Left" Margin="41,164,0,0" Text="Tanggal Masuk" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" Height="46" TextChanged="Tanggal_Masuk_TextChanged"/>
+        <Button x:Name="InputBarang" Content="Input" HorizontalAlignment="Left" Margin="38,287,0,0" VerticalAlignment="Top" Height="37" Width="168" Click="OnClickInput"/>
+        <TextBox x:Name="Jumlah" HorizontalAlignment="Left" Margin="42,222,0,0" Text="Jumlah" TextWrapping="Wrap" VerticalAlignment="Top" Width="167" Height="49" TextChanged="Jumlah_TextChanged"/>
+        <TextBox x:Name="KodeMasuk" HorizontalAlignment="Left" Margin="40,36,0,0" Text="Kode Barang Masuk" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" Height="49" TextChanged="KodeMasuk_TextChanged"/>
+    </Grid>
+</Window>

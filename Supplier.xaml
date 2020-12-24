@@ -1,0 +1,25 @@
+﻿<Window x:Class="inventory.Supplier"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:inventory"
+        mc:Ignorable="d"
+        Title="Supplier" Height="450" Width="245">
+    <Grid HorizontalAlignment="Left" Width="232">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="237*"/>
+            <RowDefinition Height="197*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="KodeSupplier" HorizontalAlignment="Left" Margin="42,58,0,0" Text="Kode Supplier" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" Height="35" TextChanged="KodeSupplier_TextChanged"/>
+        <TextBox x:Name="NamaSupplier" Margin="43,105,0,0" Text="Nama Supplier" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" TextChanged="NamaSupplier_TextChanged" HorizontalAlignment="Left" Width="155"/>
+        <TextBox x:Name="NoTelepon" HorizontalAlignment="Left" Margin="42,153,0,0" Text="No Telepon" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" Height="35" TextChanged="NoTelepon_TextChanged"/>
+        <TextBox x:Name="Alamat" HorizontalAlignment="Left" Margin="43,203,0,0" Text="Alaamat" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" Height="35" TextChanged="Alamat_TextChanged" Grid.RowSpan="2"/>
+        <Button x:Name="Input" Content="Input" HorizontalAlignment="Left" Margin="41,10,0,0" VerticalAlignment="Top" Height="45" Width="155" Click="OnClickInput" Grid.Row="1"/>
+
+    </Grid>
+</Window>

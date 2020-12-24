@@ -1,0 +1,18 @@
+﻿<Window x:Class="inventory.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:inventory"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="595" Width="326">
+    <Grid HorizontalAlignment="Left" Width="589">
+        <Label Content="Aplikasi Inventori" HorizontalAlignment="Left" Margin="101,0,0,505" VerticalAlignment="Bottom" Width="128" Height="46"/>
+        <Button x:Name="Barang" Content="Input Barang" HorizontalAlignment="Left" Margin="90,122,0,0" VerticalAlignment="Top" Height="41" Width="124" Click="OnClickBarang"/>
+        <Button x:Name="Masuk" Content="Barang Masuk" HorizontalAlignment="Left" Margin="91,195,0,0" VerticalAlignment="Top" Height="41" Width="124" Click="OnClickMasuk"/>
+        <Button x:Name="Keluar" Content="Barang Keluar" HorizontalAlignment="Left" Margin="91,269,0,0" VerticalAlignment="Top" Height="41" Width="124" Click="OnClickKeluar"/>
+        <Button x:Name="Supplier" Content="Supllier" HorizontalAlignment="Left" Margin="91,339,0,0" VerticalAlignment="Top" Height="41" Width="124" Click="OnClickSup"/>
+        <Button x:Name="Admin" Content="Data Admin" HorizontalAlignment="Left" Margin="91,412,0,0" VerticalAlignment="Top" Height="41" Width="124" Click="OnClickAdmin"/>
+        <Button x:Name="Karyawan" Content="Data Karyawan" HorizontalAlignment="Left" Margin="91,492,0,0" VerticalAlignment="Top" Height="41" Width="124" Click="OnClickKaryawan"/>
+    </Grid>
+</Window>
